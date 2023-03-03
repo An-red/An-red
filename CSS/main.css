@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,400;1,700&display=swap');
+*,
+*::after,
+*::before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+h1, h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.main{
+    max-width: 750px;
+    margin: 50px auto;
+    background-color: rgb(247, 218, 180);
+}
+
+.main2{
+    padding: 0 50px 0 110px;
+    padding-top: 10px;
+    font-family: "Philosopher";
+    font-size: 16px;
+    background-color: rgba(253, 253, 253, 0.925);
+}
+
+.Capitalize::first-letter{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.main p:nth-child(odd){
+    color: rgb(104, 6, 6);
+}
+
+.main p:nth-child(even){
+    color: rgb(7, 88, 7);
+}
+
+
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header{
+    /* position: fixed; */
+    position: fixed;
+}
+
+
+.Capitalize::first-letter{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.nav div{
+    padding: 20px 20px 20px 0px; 
+}
+
+.btn{
+    background-color: rgb(247, 198, 143);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.6s;
+    border-radius: 20px 0px 0px 20px;
+    
+    
+}
+
+.btnz{
+    background-color: rgb(247, 198, 143);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.6s;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.btn:hover{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.726);
+        box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.349);
+        top: 10px;
+        border-radius: 0% 0% 0% 0%;
+        background-color: rgb(247, 198, 143);
+        text-shadow: -3px 4px 0 rgba(121, 118, 118, 0.185);
+        border-radius: 0px 60px 60px 0px;
+        
+}
+
+.btnz:hover{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.726);
+        box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.349);
+        top: 10px;
+        border-radius: 0% 0% 0% 0%;
+        background-color: rgb(247, 198, 143);
+        text-shadow: -3px 4px 0 rgba(121, 118, 118, 0.185);
+        border-radius: 0px 60px 60px 0px;
+}
+
+.fon{
+    position: relative;
+    text-align: center;
+    
+}
+
+.fon1{
+    height: 100px;
+    width: 100px;
+    animation-fill-mode: none;
+    animation: 100s mercury infinite linear;
+}
+
+@keyframes mercury {
+    from { transform: translateX() rotate(0);}				
+    to { transform: translateX(0) rotate(2turn); }
+}
+
+.img:hover{
+    box-shadow: 0px 15px 15px 0px rgba(100, 97, 97, 0.788); 
+    transition: 0.4s;
+    margin-bottom: 15px;
+    max-height: 150%;
+    
+}
+
+.btn .btnz:focus,
+    .btn .btnz:active{
+        text-shadow: 0 5px 0 red ;
+        box-shadow: 0 0px 0 0 green;
+        top: 20px;
+    }
+
+    .btn:focus,
+    .btn:active{
+        color: brown;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.349);
+        top: 20px;
+    }
+
+    .btnz:focus,
+    .btnz:active{
+        color: brown;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.349);
+        top: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
